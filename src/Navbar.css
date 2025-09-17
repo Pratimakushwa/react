@@ -1,0 +1,38 @@
+
+
+.navbar {
+  
+  background-color:yellow; 
+  
+  padding: 15px 30px;
+  position: fixed;     /* top me fix karne ke liye */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  top: 0;
+}
+
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.navbar a {
+  text-decoration: none;
+  color:black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.navbar a:hover {
+  color: #ffcc00; 
+}

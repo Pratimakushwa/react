@@ -1,10 +1,10 @@
 import React from "react";
 
-function Hearder(){
+function Header(){
     return(
         <>
         <p> this is header</p>
         </>
     )
 }
-export default Hearder
+export default Header
