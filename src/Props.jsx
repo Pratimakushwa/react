@@ -1,5 +1,6 @@
 import React from "react";
 import Child from "./child";
+
 const  App=()=>{
     // let Title="cloth"
     // let Brand="zara"
@@ -19,9 +20,9 @@ const  App=()=>{
     return(
         <>
         <h1>props</h1>
-        {/* <Child title={Title}brand={Brand} price="999"/>//use variable */}
+        {/* <Child title={Title}brand={Brand} price="999"/>//use variable */}//use variable
         <Child clothes={clothes}/>//use object
-
+        
 
         {/* <Child title="cloth" brand="zara" price="999"/>
         <Child title="cloth" brand="h&m" price="9986"/> */}
