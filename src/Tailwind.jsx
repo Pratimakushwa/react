@@ -3,7 +3,7 @@ import './Tailwind.css'
 const App=()=>{
     return(
         <>
-        <div className="flex justify-center items-center border-b-gray-600 ">
+        <div className="flex justify-center items-center border-2 ">
             <h1>hello</h1>
             <h2>okk</h2>
             <h1>cybrom </h1>
