@@ -25,7 +25,7 @@ const App=()=>{
         <>
 
         <header className="flex justify-around p-2 border bg-amber-400" >
-            <img src="{Pic}" alt="" />
+            <img src={Pic} alt="" />
             <nav >
                 <ul className=" block sm:flex  gap-3  w-f ">
                     <li  className="hover:bg-amber-50">Home</li>
