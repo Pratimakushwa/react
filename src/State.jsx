@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 const App =()=>{
+
     // let  sayhi=(mayname)=>{
     //     alert("hello"+mayname)
     // }
@@ -17,6 +18,7 @@ const App =()=>{
     // const [count, setcount]=useState(0)
     // let sayhi=()=>{
         
+
     //     setcount(count+1)
 
 
@@ -31,7 +33,11 @@ const App =()=>{
     // }     
 
 
-   
+   const[mayname,setname] = useState("pratima")
+   let sayhi=()=>{
+     setname("khushi")
+
+   }
 
 
     return(
@@ -43,12 +49,15 @@ const App =()=>{
 
          {/* <button onClick={Sayhi}> click me</button> */}
 
-         {/* <button onClick={()=> alert("hello world")}> click me</button>
+          {/* <button onClick={()=> alert("hello world")}> click me</button> */}
 
-         <button onClick={(sayhi("pratima"))}> click name</button> */}
+         {/* <button onClick={(sayhi("pratima"))}> click name</button>  */}
          {/* <button onClick={sayhi}>glick</button> */}
 
          {/* <button onClick={()=>alert("hello world")}>click</button> */}
+
+         <button onClick={sayhi}> click</button>
+         <h1>{mayname}</h1>
 
         </>
 
