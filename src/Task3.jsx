@@ -13,19 +13,19 @@ const ColorBox = () => {
       <div>
         <button
           onClick={() => setBgColor('red')}
-          className="bg-red-500 text-white px-6 py-2 rounded mr-4 hover:bg-red-600 transition"
+          className="bg-red-500 text-white"
         >
           Red
         </button>
         <button
           onClick={() => setBgColor('green')}
-          className="bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600 transition"
+          className="bg-green-500 text-white  "
         >
           Green
         </button>
         <button
           onClick={() => setBgColor('white')}
-          className="bg-gray-500 text-white px-6 py-2 rounded ml-4 hover:bg-gray-600 transition"
+          className="bg-gray-500 text-white "
         >
           Reset
         </button>
